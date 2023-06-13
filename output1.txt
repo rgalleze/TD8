@@ -1,0 +1,81 @@
+Mean exec (50 iterations), N = 500000, 1 thread(s) --> .0030815 sec
+Mean exec (50 iterations), N = 500000, 2 thread(s) --> .0015456 sec
+Mean exec (50 iterations), N = 500000, 3 thread(s) --> .0015777 sec
+Mean exec (50 iterations), N = 500000, 4 thread(s) --> .0014756 sec
+Mean exec (50 iterations), N = 500000, 5 thread(s) --> .0016112 sec
+Mean exec (50 iterations), N = 500000, 6 thread(s) --> .0016032 sec
+Mean exec (50 iterations), N = 500000, 7 thread(s) --> .0016863 sec
+
+Mean exec (50 iterations), N = 1000000, 1 thread(s) --> .0054995 sec
+Mean exec (50 iterations), N = 1000000, 2 thread(s) --> .0032962 sec
+Mean exec (50 iterations), N = 1000000, 3 thread(s) --> .0030768 sec
+Mean exec (50 iterations), N = 1000000, 4 thread(s) --> .0024287 sec
+Mean exec (50 iterations), N = 1000000, 5 thread(s) --> .0030864 sec
+Mean exec (50 iterations), N = 1000000, 6 thread(s) --> .0029207 sec
+Mean exec (50 iterations), N = 1000000, 7 thread(s) --> .0029702 sec
+
+Mean exec (50 iterations), N = 2000000, 1 thread(s) --> .0109402 sec
+Mean exec (50 iterations), N = 2000000, 2 thread(s) --> .0056912 sec
+Mean exec (50 iterations), N = 2000000, 3 thread(s) --> .0061359 sec
+Mean exec (50 iterations), N = 2000000, 4 thread(s) --> .0048548 sec
+Mean exec (50 iterations), N = 2000000, 5 thread(s) --> .0060233 sec
+Mean exec (50 iterations), N = 2000000, 6 thread(s) --> .0057988 sec
+Mean exec (50 iterations), N = 2000000, 7 thread(s) --> .0054657 sec
+
+Mean exec (50 iterations), N = 4000000, 1 thread(s) --> .0226358 sec
+Mean exec (50 iterations), N = 4000000, 2 thread(s) --> .0114739 sec
+Mean exec (50 iterations), N = 4000000, 3 thread(s) --> .0124341 sec
+Mean exec (50 iterations), N = 4000000, 4 thread(s) --> .0098261 sec
+Mean exec (50 iterations), N = 4000000, 5 thread(s) --> .0119215 sec
+Mean exec (50 iterations), N = 4000000, 6 thread(s) --> .0105546 sec
+Mean exec (50 iterations), N = 4000000, 7 thread(s) --> .0115891 sec
+
+Mean exec (50 iterations), N = 8000000, 1 thread(s) --> .0456132 sec
+Mean exec (50 iterations), N = 8000000, 2 thread(s) --> .0236512 sec
+Mean exec (50 iterations), N = 8000000, 3 thread(s) --> .0255114 sec
+Mean exec (50 iterations), N = 8000000, 4 thread(s) --> .0197681 sec
+Mean exec (50 iterations), N = 8000000, 5 thread(s) --> .0224400 sec
+Mean exec (50 iterations), N = 8000000, 6 thread(s) --> .0213276 sec
+Mean exec (50 iterations), N = 8000000, 7 thread(s) --> .0209868 sec
+
+----------------------- opti1 --------------------------------------
+
+Mean exec (50 iterations), N = 500000, 1 thread(s) --> .0005095 sec
+Mean exec (50 iterations), N = 500000, 2 thread(s) --> .0002592 sec
+Mean exec (50 iterations), N = 500000, 3 thread(s) --> .0002483 sec
+Mean exec (50 iterations), N = 500000, 4 thread(s) --> .0002848 sec
+Mean exec (50 iterations), N = 500000, 5 thread(s) --> .0002638 sec
+Mean exec (50 iterations), N = 500000, 6 thread(s) --> .0002530 sec
+Mean exec (50 iterations), N = 500000, 7 thread(s) --> .0002890 sec
+
+Mean exec (50 iterations), N = 1000000, 1 thread(s) --> .0008529 sec
+Mean exec (50 iterations), N = 1000000, 2 thread(s) --> .0004464 sec
+Mean exec (50 iterations), N = 1000000, 3 thread(s) --> .0004576 sec
+Mean exec (50 iterations), N = 1000000, 4 thread(s) --> .0004300 sec
+Mean exec (50 iterations), N = 1000000, 5 thread(s) --> .0004618 sec
+Mean exec (50 iterations), N = 1000000, 6 thread(s) --> .0004534 sec
+Mean exec (50 iterations), N = 1000000, 7 thread(s) --> .0004927 sec
+
+Mean exec (50 iterations), N = 2000000, 1 thread(s) --> .0015526 sec
+Mean exec (50 iterations), N = 2000000, 2 thread(s) --> .0008340 sec
+Mean exec (50 iterations), N = 2000000, 3 thread(s) --> .0008943 sec
+Mean exec (50 iterations), N = 2000000, 4 thread(s) --> .0007384 sec
+Mean exec (50 iterations), N = 2000000, 5 thread(s) --> .0008897 sec
+Mean exec (50 iterations), N = 2000000, 6 thread(s) --> .0008655 sec
+Mean exec (50 iterations), N = 2000000, 7 thread(s) --> .0008472 sec
+
+Mean exec (50 iterations), N = 4000000, 1 thread(s) --> .0031330 sec
+Mean exec (50 iterations), N = 4000000, 2 thread(s) --> .0016315 sec
+Mean exec (50 iterations), N = 4000000, 3 thread(s) --> .0017916 sec
+Mean exec (50 iterations), N = 4000000, 4 thread(s) --> .0014359 sec
+Mean exec (50 iterations), N = 4000000, 5 thread(s) --> .0017561 sec
+Mean exec (50 iterations), N = 4000000, 6 thread(s) --> .0016404 sec
+Mean exec (50 iterations), N = 4000000, 7 thread(s) --> .0015960 sec
+
+Mean exec (50 iterations), N = 8000000, 1 thread(s) --> .0063698 sec
+Mean exec (50 iterations), N = 8000000, 2 thread(s) --> .0036091 sec
+Mean exec (50 iterations), N = 8000000, 3 thread(s) --> .0036992 sec
+Mean exec (50 iterations), N = 8000000, 4 thread(s) --> .0029306 sec
+Mean exec (50 iterations), N = 8000000, 5 thread(s) --> .0034968 sec
+Mean exec (50 iterations), N = 8000000, 6 thread(s) --> .0030516 sec
+Mean exec (50 iterations), N = 8000000, 7 thread(s) --> .0031781 sec

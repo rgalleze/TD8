@@ -1,0 +1,5 @@
+Mean exec (50 iterations), N = 500000 --> .0025735 sec
+Mean exec (50 iterations), N = 1000000 --> .0051100 sec
+Mean exec (50 iterations), N = 2000000 --> .0103717 sec
+Mean exec (50 iterations), N = 4000000 --> .0217910 sec
+Mean exec (50 iterations), N = 8000000 --> .0445056 sec
