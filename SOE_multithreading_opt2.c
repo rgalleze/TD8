@@ -71,8 +71,8 @@ int main(int argc, char *argv[]) {
     for (int k = 0; k < K; k++) {
         args[k].array = array;
         args[k].max_i = (uint64_t)+sqrt(N);
-        args[k].begin = 64 * ((uint64_t)NW * k / K);
-        args[k].end = 64 * ((uint64_t)NW * (k + 1) / K);
+        args[k].begin = 2*64 * ((uint64_t)NW * k / K);
+        args[k].end = 2*64 * ((uint64_t)NW * (k + 1) / K);
         pthread_create(&k_thread[k], NULL, thread_function, &args[k]);
     }
 
@@ -91,13 +91,12 @@ int main(int argc, char *argv[]) {
     uint64_t total_primes = 0; // Utile pour vérification
     
     for (uint64_t i = 0; i <= N; i++) {
-        if (array[i / 64] & ((uint64_t)1 << (i % 64))) {
-            printf("%llu ", i);
+        if ((array[(i/2) / 64] & ((uint64_t)1 << ((i-3)/2) % 64))) {
             total_primes++;
         }
     }
     //printf("\n");
-    printf("N = %lu, %d thread(s), Total primes %d \n\n",N,K, total_primes);
+    printf("N = %lu, %d thread(s), Total primes %lu \n\n",N,K, total_primes);
     free(array);
     return 0;
 }
